@@ -1,0 +1,742 @@
+body{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: white;
+
+}
+/*loader*/
+#spinner{
+  margin-top: 25%;
+  vertical-align: middle;
+}
+.spinner{
+  background-color: white;
+  width: 100%;
+  height: 200rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.heading1{
+  font-family: 'Arvo',sans-serif;
+  position: absolute;
+  color: grey;
+  font-size: 3rem;
+  bottom: 55%;
+  right: 60%;
+
+}
+
+.heading3{
+position: absolute;
+bottom: 75%;
+right: 75%;
+}
+
+.heading4{
+  font-family: 'ABeeZee',sans-serif;
+  position: absolute;
+  bottom: 45%;
+  right: 61%;
+}
+
+/*NAVBAR*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+.brand {
+  font-weight: bold;
+  font-size: 20px; }
+
+
+.site-header {
+  position: relative;
+  background-color: white; }
+
+.site-header__wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  @media (min-width: 600px) {
+    .site-header__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 0;
+      padding-bottom: 0; } }
+@media (min-width: 600px) {
+  .nav__wrapper {
+    display: flex; } }
+
+@media (max-width: 599px) {
+  .nav__wrapper {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
+    .nav__wrapper.active {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0); } }
+
+.nav__item a {
+  display: block;
+  padding: 1.5rem 1rem; }
+
+.nav__toggle {
+  display: none; }
+  @media (max-width: 599px) {
+    .nav__toggle {
+      display: block;
+      position: absolute;
+      right: 1rem;
+      top: 1rem; } }
+
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+      .wrapper {
+        max-width: 1140px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: border-box;
+      }
+
+      a {
+        text-decoration: none;
+        color: #222;
+      }
+
+      html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+
+      .sr-only {
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0;
+        border: 0;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+      }
+
+      .button {
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        color: #fff;
+        background-color: white;
+        min-width: 120px;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .button svg {
+        display: inline-block;
+        vertical-align: middle;
+        width: 24px;
+        height: 24px;
+        fill: #fff;
+      }
+
+      .button span {
+        display: none;
+      }
+
+      @media (min-width: 600px) {
+        .button span {
+          display: initial;
+        }
+      }
+
+      .button--icon {
+        min-width: initial;
+        padding: 0.5rem;
+      }
+
+/*carousel*/
+.gambar1{
+  width: 33rem;
+  height: 33rem;
+}
+.gambar2{
+  width: 33rem;
+  height: 33rem;
+}
+
+.gambar3{
+  width: 33rem;
+  height: 33rem;
+}
+
+.btn1{
+  position: absolute;
+  z-index: 1;
+  bottom: 29%;
+  right: 72%;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn2{
+  position: absolute;
+  z-index: 1;
+  bottom: 29%;
+  right: 55%;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.p1{
+  color: grey;
+  padding: 200px;
+  padding-left: 0px;
+  margin-right: 30%;
+
+}
+/*SARAN*/
+
+.man{
+  position: absolute;
+  margin-top: 10%;
+  left: 0px;
+  width:35rem;
+  border-top-right-radius: 100px;
+}
+
+.saran{
+  background-color: white;
+  padding-right: 10%;
+  padding-bottom: 35%;
+  padding-top: 50px;
+  z-index: 1;
+}
+
+.paragraf2{
+  position: absolute;
+  background-color: white;
+  padding-bottom: 4rem;
+  left: 50%;
+  margin-top: 10%
+}
+
+.h1{
+
+margin-left: 30px;
+margin-top: 100px;
+
+}
+
+.h6{
+  margin-left: 35px;
+
+}
+
+/*CONSULTATION*/
+.consultasi{
+  height: 10%;
+  margin-top: 15%;
+  background-color: #ECECEC;
+
+}
+
+.paragraf3{
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+.consul{
+  border-top-right-radius: 100px;
+}
+
+#consultasi{
+  margin-right: 0px;
+}
+
+#title{
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+
+#text{
+  font-size: 1.5rem;
+}
+
+/*BUTTON*/
+
+
+.btn1:hover{
+  transform: translate(-0.05em, -0.05em);
+ box-shadow: 0.15em 0.15em;
+}
+
+.btn1:active{
+  transform: translate(0.05em, 0.05em);
+   box-shadow: 0.05em 0.05em;
+}
+.btn2:hover{
+  transform: translateY(-3px);
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
+}
+
+.btn2:active{
+  transform: translateY(-1px);
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn2:after{
+  background-color: #fff;
+}
+
+.btn2:hover::after{
+  transform: scaleX(1.4) scaleY(1.6);
+ opacity: 0;
+}
+
+.btn3{
+position: absolute;
+top:80%;
+right: 64%;
+background-color: #eee;
+border: none;
+padding: 1rem;
+font-size: 1rem;
+width: 10em;
+border-radius: 1rem;
+color: #FFC300;
+box-shadow: 0 0.4rem #dfd9d9;
+cursor: pointer;
+}
+
+.btn3:active{
+  color: white;
+ box-shadow: 0 0.2rem #dfd9d9;
+ transform: translateY(0.2rem);
+}
+
+.btn3:hover:not(:disabled) {
+ background: #FFC300;
+ color: white;
+ text-shadow: 0 0.1rem #bcb4b4;
+}
+
+.btn3:disabled {
+ cursor: auto;
+ color: grey;
+}
+
+.kesehatan{
+  background-color:  #ECECEC;
+  padding-right: 100%;
+  padding-bottom: 50%;
+  margin-top: 4%;
+}
+.kesehatanGigi{
+  position: absolute;
+  box-shadow:  3px 5px 5px 3px;
+  margin-top: 100px;
+  right: 85%;
+  padding: 30px;
+  background-color: white;
+  cursor: pointer;
+
+}
+
+
+.gigi:hover{
+  width: 100px;
+  transition:  0.5s ease;
+}
+
+.gigi{
+  width: 80px;
+  text-align: center;
+
+}
+
+.kesehatanParu{
+  position: absolute;
+  box-shadow:  3px 5px 5px 3px;
+  margin-top: 100px;
+  right: 70%;
+  padding: 30px;
+  padding-top: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.paru{
+  width: 80px;
+  padding-top: 10px;
+}
+
+.paru:hover{
+  width: 100px;
+  transition:  0.5s ease;
+}
+
+.kesehatanMata{
+  position: absolute;
+  box-shadow:  3px 5px 5px 3px;
+  margin-top: 100px;
+  right: 55%;
+  padding: 30px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.mata{
+  width: 80px;
+}
+
+.mata:hover{
+  width: 100px;;
+  transition:  0.5s ease;
+}
+
+.kesehatanKulit{
+  position: absolute;
+  box-shadow:  3px 5px 5px 3px;
+  margin-top: 25%;
+  right: 85%;
+  padding: 30px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.kulit{
+  width: 80px;
+}
+
+.kulit:hover{
+  width: 100px;;
+  transition:  0.5s ease;
+}
+
+.vitamin{
+  position: absolute;
+  box-shadow:  3px 5px 5px 3px;
+  margin-top: 25%;
+  right: 70%;
+  padding: 30px;
+  padding-left: 40px;
+  padding-top: 15px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.obat{
+  width: 75px;
+}
+
+.obat:hover{
+  width: 100px;;
+  transition:  0.5s ease;
+}
+
+.covid{
+  position: absolute;
+  box-shadow:  3px 5px 5px 3px;
+  margin-top: 25%;
+  right: 55%;
+  padding: 30px;
+  padding-top: 10px;
+  padding-left: 35px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.copid{
+  width: 80px;
+}
+
+.copid:hover{
+  width: 100px;
+  transition:  0.5s ease;
+}
+
+.jadwal{
+  position: absolute;
+  right: 5%;
+  left: 50%;
+  top: 105%;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding-bottom: 16%;
+
+}
+
+
+.header{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.title{
+  font-size: 1.5rem;
+}
+
+.text{
+  margin-top: 10%;
+  font-size: 1rem;
+}
+
+
+/*footer*/
+.footer{
+  position: relative;
+
+}
+
+#footer{
+  text-align: center;
+  background-color: #C4C4C4;
+  padding: 7% 10%
+}
+/*RESPONSIF FOR PC 1400PX KEATAS*/
+@media(max-width:5000px) and (min-width:1400px){
+
+
+
+}
+
+/* RESPONSIF FOR MOBILE */
+@media (max-width:576px) and (min-width:356px) {
+
+/*loader*/
+#spinner{
+  margin-top: 50%;
+}
+/*carousel*/
+.gambar1{
+  height: 10rem;
+  margin-top: 52px;
+
+}
+.gambar2,.gambar3{
+  height: 13.1rem;
+  margin-top: 3px;
+}
+
+.btn1{
+  margin-bottom: 150px;
+  right: 310px;
+  z-index: 0;
+}
+
+.btn2{
+  margin-bottom: 150px;
+  right: 130px;
+  font-size: 15px;
+  z-index: 0;
+}
+
+.p1{
+  font-size: 10px;
+  padding: 1000px;
+  width: 1000px;
+margin-bottom: 2px;
+  z-index: 2;
+}
+/* LOGO */
+.logo{
+  position: absolute;
+  right: 87%;
+  width: 50px;
+}
+
+
+
+
+    /*KESEHATAN*/
+    .kesehatan{
+      background-color: white;
+      padding-right: 100%;
+      padding-bottom: 100%;
+    }
+    .kesehatanGigi{
+      position: absolute;
+      box-shadow:  3px 5px 5px 3px;
+      margin-top: 90px;
+      right: 60%;
+      padding: 50px;
+      background-color: white;
+    }
+    .gigi{
+      width: 80px;
+      text-align: center;
+
+    }
+
+    .kesehatanParu{
+      position: absolute;
+      box-shadow:  3px 5px 5px 3px;
+      margin-top: 90px;
+      right: 10%;
+      padding: 50px;
+      padding-top: 28px;
+      background-color: white;
+    }
+
+    .paru{
+      width: 80px;
+      padding-top: 10px;
+    }
+
+    .kesehatanMata{
+      position: absolute;
+      box-shadow:  3px 5px 5px 3px;
+      margin-top: 70%;
+      right: 60%;
+      padding: 50px;
+      background-color: white;
+    }
+
+    .mata{
+      width: 80px;
+
+    }
+
+    .kesehatanKulit{
+      position: absolute;
+      box-shadow:  3px 5px 5px 3px;
+      margin-top: 70%;
+      right: 10%;
+      padding: 50px;
+      background-color: white;
+    }
+
+    .kulit{
+      width: 80px;
+    }
+
+    .vitamin{
+      position: absolute;
+      box-shadow:  3px 5px 5px 3px;
+      margin-top: 125%;
+      right: 60%;
+      padding: 50px;
+      padding-left: 55px;
+      padding-top: 15px;
+      background-color: white;
+    }
+
+    .obat{
+      width: 75px;
+    }
+
+    .covid{
+      position: absolute;
+      box-shadow:  3px 5px 5px 3px;
+      margin-top: 125%;
+      right: 10%;
+      padding: 50px;
+      padding-top: 10px;
+      padding-left: 50px;
+      background-color: white;
+    }
+
+    .copid{
+      width: 80px;
+    }
+
+    /*jadwal dokter*/
+    .jadwal{
+      margin-top: 130%;
+      width: 97%;
+      margin-left: -270px;
+    }
+      /*SARAN*/
+      .man{
+      margin-left:-50px;
+      width:37.9rem;
+      border-top-right-radius: 0px;
+      }
+
+      .saran{
+        background-color: white;
+        margin-top: 180%;
+        padding-bottom: 35%;
+      }
+
+      .paragraf2{
+
+        width: 34.7rem;
+        background-color: #C4C4C4;
+        padding-left: 10px;
+        padding-bottom: 4rem;
+        margin-left: -278px;
+        margin-top: 77%;
+      }
+
+      .h1{
+        padding: 20px;
+        width: 30rem;
+        margin-left: 10px;
+      }
+
+      .h6{
+        margin-left: 35px;
+      }
+
+      /*CONSULTATION*/
+      .consultasi{
+        width: 100%;
+        text-align: center;
+        left: 0px;
+        margin-top: 130%;
+        padding-right: 0rem;
+        padding-bottom: 60%;
+        background-color: white;
+
+      }
+      .heading{
+        font-size: 2rem;
+        width: 100%;
+        padding-right: 90px;
+        margin-left:10px;
+        margin-top: 10px;
+      }
+
+      .heading6{
+        position: relative;
+        top: 20px;
+        font-size: 20px;
+        margin-left: 10px;
+        width: 90%;
+      }
+      .consul{
+        border-top-right-radius: 0px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+
+    /*FOOTER*/
+    #footer{
+      text-align: center;
+      margin-top:30%;
+      background-color: #C4C4C4;
+      padding: 7% 10%
+
+  }

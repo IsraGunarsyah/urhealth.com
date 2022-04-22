@@ -1,0 +1,139 @@
+.logo2{
+  width: 100px;
+}
+
+.card1{
+  margin-left: 10%;
+  width: 85%;
+  height: 30rem;
+  border: none;
+}
+
+.border1{
+  position: relative;
+  top: 10%;
+  width: 50%;
+  left: 45%;
+
+}
+
+.border1 img{
+  border-radius: 50px;
+}
+
+#card-body1{
+  position: relative;
+  bottom:75%;
+  width: 500px;
+
+}
+
+#card-body1 h4{
+  font-size: 1.5rem;
+  margin-bottom: 10%;
+}
+
+#card-body1 p{
+  font-size: 1.2rem;
+}
+
+
+/*container2*/
+
+.container2{
+  background-image: linear-gradient(#ECECEC,white);
+}
+
+.card2{
+  padding-top: 10%;
+  margin-left: 10%;
+  width: 85%;
+  height: 30rem;
+  border:none;
+  background: rgba(0,0,0,0);
+}
+
+.border2{
+  position: relative;
+  top:10%;
+  width: 50%;
+
+}
+
+#card-body2{
+  position: relative;
+  bottom:90%;
+  left: 80%;
+  width: 500px;
+}
+
+#card-body2 h4{
+  font-size: 2rem;
+}
+
+#card-body2 ul{
+  font-size: 1.5rem;
+}
+
+
+/*container3*/
+.card3{
+  margin-top: 25%;
+  text-align: center;
+}
+
+
+/*container4*/
+.card4{
+  margin-top: 10%;
+  text-align: center;
+}
+
+.card4 p{
+  padding-top: 3%;
+}
+
+/*container5*/
+
+.card5{
+  width: 50%;
+  height: 25%;
+  margin-top:10%;
+  margin-left: 25%;
+  background-color: #ECECEC;
+}
+
+.card5 img{
+  position: relative;
+  top: 30px;
+  left:40%;
+}
+
+.card5 button{
+  position: relative;
+  padding: 12px 12px;
+  right: 40%;
+  border: 2px solid #FFC300;
+  border-radius: 18px;
+}
+
+.card5 button:hover{
+  background:#FFC300;
+  border-color: black;
+    box-shadow: 3px 3px 3px 3px #666;
+  transition: 0.5s ease-out;
+}
+
+/*footer*/
+footer{
+  width: 100%;
+  height: 10rem;
+  margin-top: 10%;
+  z-index: -1;
+  background-color:#9D9D9D;
+}
+
+footer h5{
+  text-align: center;
+  padding-top: 5%;
+}
